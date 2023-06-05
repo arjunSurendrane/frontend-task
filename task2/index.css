@@ -1,0 +1,30 @@
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.slideshow-container img {
+  display: none;
+}
+
+/* Show the first image */
+.slideshow-container img:first-child {
+  display: block;
+}
+
+/* Navigation dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.dot.active {
+  background-color: #717171;
+}
